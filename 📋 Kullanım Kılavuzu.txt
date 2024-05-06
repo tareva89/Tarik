@@ -1,0 +1,11 @@
+📋 Kullanım Kılavuzu:
+
+Uygulamayı başlatmak için PyQt5 kütüphanesini kullanarak bir arayüz oluşturduk.
+Arayüzde, sporcuların adlarını ve spor dallarını kaydetmek için giriş kutuları ve düğmeler bulunuyor.
+Sporcu kaydı oluşturulduğunda, kullanıcıya bilgi mesajları gösteriliyor ve giriş kutuları temizleniyor.
+Sporcuları listelemek için bir düğme ekledik, bu düğme tıklandığında kaydedilmiş sporcular bir ileti kutusunda listeleniyor.
+Etkinlik sınıfı, etkinlik bilgilerini saklamak ve işlemek için kullanıldı.
+Katılımcı sınıfı, katılımcı bilgilerini ve etkinlik kayıtlarını yönetmek için tasarlandı.
+Bilet sınıfı, bilet işlemleri ve katılımcı bilgilerini içerir.
+Veri yapıları olarak liste ve sözlük kullanıldı. Sporcuları ve etkinlikleri saklamak için liste, etkinlik katılımcılarını saklamak için ise sözlük kullanıldı.
+Arayüzde kullanılan giriş kutuları ve düğmeler için PyQt5 bileşenleri kullanıldı.
