@@ -1,0 +1,18 @@
+YARDIM ALINAN FONKSİYONLAR:
+
+1.__init__(self, ad, spor_dali): Sporcu sınıfının yapıcı metodu. Sporcu nesnesi oluşturulurken çağrılır ve sporcu adı ve spor dalı gibi özelliklerini başlatır.
+2.program_olustur(self, antrenman): Sporcunun antrenman programını oluşturmak için kullanılan metod. Bir antrenman nesnesini parametre olarak alır ve bu antrenmanı sporcunun antrenman 3.listesine ekler.
+4.ilerleme_kaydet(self, antrenman_adi, ilerleme): Sporcunun ilerlemelerini kaydetmek için kullanılan metod. Bir antrenman adı ve ilerleme bilgisini parametre olarak alır ve ilgili 5.antrenmanın ilerlemeler listesine ekler.
+6.rapor_al(self): Sporcunun antrenman raporunu oluşturmak için kullanılan metod. Sporcunun antrenmanlarını ve ilerlemelerini içeren bir rapor oluşturur.
+7.__str__(self): Sporcu ve Antrenman sınıflarında özel metot olarak tanımlanmıştır. Nesne metnini temsil eden bir dize döndürür.
+8.__init__(self, ad, detaylar): Antrenman sınıfının yapıcı metodu. Antrenman nesnesi oluşturulurken çağrılır ve antrenman adı ve detayları gibi özelliklerini başlatır.
+9.__init__(self): SporTakipUygulamasi sınıfının yapıcı metodu. Uygulama penceresini oluşturur ve gerekli arayüz öğelerini ekler.
+10.kayit_ol(self): Kullanıcıdan alınan sporcu bilgileriyle bir sporcu kaydı oluşturan metod.
+11.sporculari_listele(self): Kaydedilen sporcuların bir listesini kullanıcıya gösteren metod.
+12.clear_input(self): Kullanıcı giriş alanlarını temizleyen metod.
+13.if __name__ == '__main__':: Python dosyası doğrudan çalıştırıldığında, PyQt5 uygulamasını başlatmak için kullanılan ana işlev.
+14.app = QApplication(sys.argv): PyQt5 uygulamasını başlatır.
+15.window = SporTakipUygulamasi(): Spor Takip Uygulaması sınıfından bir pencere oluşturur.
+16.window.show(): Pencereyi görünür hale getirir.
+17.sys.exit(app.exec_()): Uygulamanın ana döngüsünü başlatır ve çıkış kodunu döndürür.
+
